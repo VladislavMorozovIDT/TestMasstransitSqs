@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqsSender", "SqsSender\SqsSender.csproj", "{4A292104-95ED-4A66-BE04-966EC175D04E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqsReceiver", "SqsReceiver\SqsReceiver.csproj", "{F901633C-F872-462F-AAE1-1FF17CDBE692}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shared", "shared\shared.csproj", "{68A4533B-7237-4488-9D09-17682453C162}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A292104-95ED-4A66-BE04-966EC175D04E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A292104-95ED-4A66-BE04-966EC175D04E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A292104-95ED-4A66-BE04-966EC175D04E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A292104-95ED-4A66-BE04-966EC175D04E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F901633C-F872-462F-AAE1-1FF17CDBE692}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F901633C-F872-462F-AAE1-1FF17CDBE692}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F901633C-F872-462F-AAE1-1FF17CDBE692}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F901633C-F872-462F-AAE1-1FF17CDBE692}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68A4533B-7237-4488-9D09-17682453C162}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68A4533B-7237-4488-9D09-17682453C162}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68A4533B-7237-4488-9D09-17682453C162}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68A4533B-7237-4488-9D09-17682453C162}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
